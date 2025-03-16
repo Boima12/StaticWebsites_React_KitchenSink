@@ -1,0 +1,69 @@
+
+div.main_progressBar {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 6px;
+    align-self: stretch;    
+
+    div.progress {
+        height: 16px;
+        background: #F1F1F1; 
+        
+        transition: all 0.9s;
+
+        overflow: clip;
+
+        display: flex;
+        align-items: center;
+        align-self: stretch;   
+        
+        div.progress_current {
+            width: 0;
+            background: #000;    // change background color here
+
+            transition: all 1.1s;
+
+            display: flex;
+            justify-content: center;
+            align-items: center;  
+            align-self: stretch;           
+
+            p {
+                color: #FFF;
+                font-family: Roboto;
+                font-size: 15px;
+                font-style: normal;
+                font-weight: 400;
+                line-height: normal;               
+            }
+        }
+    }
+}
+
+
+
+// variants
+div.main_progressBar {
+    &.variant_night {
+        div.progress {
+            background: #4C4C4C;
+        }
+    }
+
+    &.variant_red {
+        div.progress {
+            div.progress_current {
+                background: #F44336;                
+            }            
+        }
+    }
+
+    &.variant_teal {
+        div.progress {
+            div.progress_current {
+                background: #009688;               
+            }            
+        }
+    }
+}

@@ -1,0 +1,47 @@
+div.main_footer {
+    height: 270px;
+    padding: 0px 20px;
+    background: #000;
+
+    transition: all 0.9s;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    align-self: stretch;    
+
+    p {
+        align-self: stretch;
+        cursor: default;
+
+        color: #FFF;
+        text-align: center;
+        font-family: Roboto;
+        font-size: 20px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;        
+
+        span {
+            transition: all 0.4s;
+
+            &:hover {
+                color: skyblue;
+            }
+        }
+    }
+}
+
+
+
+// variants
+div.main_footer {
+    &.variant_red {
+        background: #8D1007;
+    }
+
+    &.variant_teal {
+        background: #004A43;
+    }
+}

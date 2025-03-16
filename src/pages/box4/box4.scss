@@ -1,0 +1,580 @@
+button {
+    border: none;
+}
+
+ul {
+    margin: 0;
+    padding: 0;
+}
+
+a {
+    text-decoration: none;
+}
+
+
+div.main_box4 {
+    padding: 0px 16px;
+
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    align-self: stretch;   
+    
+    div.slideshow {
+        padding: 20px 0px;
+        border-bottom: 1px solid #EEE;
+
+        transition: all 0.9s;
+
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 22.5px;
+        align-self: stretch;        
+
+        h3 {
+            transition: all 0.9s;
+
+            color: #000;
+            font-family: Roboto;
+            font-size: 30px;
+            font-style: normal;
+            font-weight: 400;
+            line-height: normal;            
+        }
+
+        div.slides {
+            width: 100%;
+            box-sizing: border-box;
+            max-width: 800px;
+            aspect-ratio: 50/33;       
+            
+            background-size: cover;
+            background-position: center center;
+            background-repeat: no-repeat;            
+
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+
+            button {
+                width: 40px;
+                height: 40px;
+                background: none;
+                cursor: pointer;
+
+                transition: all 0.4s;
+
+                display: flex;
+                flex-direction: column;
+                justify-content: center;
+                align-items: center;   
+                
+                .ic {
+                    width: 7.002px;
+                    height: 12.005px;
+                    flex-shrink: 0;    
+                    color: #000;                
+                }
+                
+                &:hover {
+                    background: lightgray;
+                }
+            }
+        }
+    }
+
+    div.navigation {
+        padding: 20px 0px;
+        border-bottom: 1px solid #EEE;
+
+        transition: all 0.9s;
+
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 22.5px;
+        align-self: stretch;        
+
+        h3 {
+            transition: all 0.9s;
+
+            color: #000;
+            font-family: Roboto;
+            font-size: 30px;
+            font-style: normal;
+            font-weight: 400;
+            line-height: normal;            
+        }
+
+        div.nav_bar {
+            background: #000;
+
+            transition: all 0.9s;
+
+            display: flex;
+            align-items: flex-start;
+            align-self: stretch;          
+            
+            a.nav_bar_link {
+                height: 54.5px;
+                box-sizing: border-box;
+                padding: 16px;
+                cursor: pointer;
+
+                transition: all 0.4s;
+
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                gap: 10px;          
+                
+                color: #FFF;
+                font-family: Roboto;
+                font-size: 18px;
+                font-style: normal;
+                font-weight: 400;
+                line-height: normal;                
+
+                &:hover {
+                    background: #D2D2D2;
+                    color: #000;
+                }
+            }
+
+            div.dropdown {
+                display: flex;
+                flex-direction: column;
+                align-items: flex-start;  
+                
+                position: relative;
+                
+                // outline: 3px solid red;
+
+                ul {
+                    width: 160px;
+                    background: #FFF;
+                    box-shadow: 0px 4px 20px 0px rgba(0, 0, 0, 0.19);   
+                    
+                    transition: all 0.9s;
+
+                    position: absolute;
+                    top: 54.5px;
+                    left: 0;
+
+                    // display: flex;
+                    flex-direction: column;
+                    align-items: flex-start;   
+                    
+                    display: none;
+                    
+                    li {
+                        height: 40px;
+                        padding: 0px 16px;
+                        cursor: pointer;
+
+                        transition: all 0.4s;
+
+                        display: flex;
+                        align-items: center;
+                        align-self: stretch;   
+                        
+                        a {
+                            transition: all 0.9s;
+
+                            color: #000;
+                            font-family: Roboto;
+                            font-size: 18px;
+                            font-style: normal;
+                            font-weight: 400;
+                            line-height: normal;  
+                        }
+
+                        &:hover {
+                            background: #ccc;                            
+                        }
+                    }
+                }
+
+                &:hover ul {
+                    display: flex;
+                }
+            }
+        }
+    }
+
+    div.accordions {
+        padding: 20px 0px;
+        border-bottom: 1px solid #EEE;
+
+        transition: all 0.9s;
+
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 22.5px;
+        align-self: stretch;    
+        
+        h3 {
+            transition: all 0.9s;
+
+            color: #000;
+            font-family: Roboto;
+            font-size: 30px;
+            font-style: normal;
+            font-weight: 400;
+            line-height: normal;            
+        }
+
+        div.buttons {
+            display: flex;
+            flex-direction: column;
+            align-items: flex-start;
+            align-self: stretch;  
+            
+            button {
+                height: 54.5px;
+                padding: 0px 16px;
+                background: #000;
+                cursor: pointer;
+
+                transition: all 0.4s;
+
+                display: flex;
+                align-items: center;
+                gap: 10px;
+                align-self: stretch;    
+                
+                color: #FFF;
+                font-family: Roboto;
+                font-size: 15px;
+                font-style: normal;
+                font-weight: 400;
+                line-height: normal;            
+                
+                &:hover {
+                    background: #D2D2D2 !important;
+                    color: #000;
+                }
+            }
+
+            div.section1 {
+                padding: 0;
+
+                // display: flex;
+                align-items: center;
+                align-self: stretch;        
+
+                transition: all 0.7s;
+                overflow: hidden;
+                display: none;
+                max-height: 0;
+                
+                p {
+                    flex: 1 0 0;
+                    transition: all 0.9s;
+
+                    color: #000;
+                    font-family: Roboto;
+                    font-size: 15px;
+                    font-style: normal;
+                    font-weight: 400;
+                    line-height: normal;                        
+                }
+
+                &.open {
+                    max-height: 160px;
+                    padding: 16px;
+                }
+            }
+
+            div.section2 {
+                // display: flex;
+                flex-direction: column;
+                align-items: flex-start;
+                align-self: stretch;   
+                
+                transition: all 0.7s;
+                overflow: hidden;
+                display: none;
+                max-height: 0;
+
+                a {
+                    height: 38.5px;
+                    padding: 0px 16px;
+                    cursor: pointer;
+
+                    transition: all 0.4s;
+
+                    display: flex;
+                    align-items: center;
+                    align-self: stretch;   
+                    flex-shrink: 0; 
+                    
+                    color: #000;
+                    font-family: Roboto;
+                    font-size: 15px;
+                    font-style: normal;
+                    font-weight: 400;
+                    line-height: normal;   
+                    
+                    &:hover {
+                        background: #CCC;                            
+                    }
+                }
+
+                &.open {
+                    max-height: 120px;
+                }
+            }
+
+            div.section3 {
+                padding: 15px 16px;
+                background: #000;
+
+                // display: flex;
+                flex-direction: column;
+                align-items: flex-start;
+                gap: 15px;
+                align-self: stretch;      
+                
+                transition: all 0.7s;
+                overflow: hidden;
+                display: none;
+                max-height: 0;
+                
+                p {
+                    flex-shrink: 0;
+
+                    color: #FFF;
+                    font-family: Roboto;
+                    font-size: 15px;
+                    font-style: normal;
+                    font-weight: 400;
+                    line-height: normal;                        
+                }
+
+                img {
+                    width: 100%;
+                    max-width: 320px;
+                    aspect-ratio: 320.00/211.20;         
+                    
+                    object-fit: cover;
+                    object-position: center;
+                    display: block;           
+                    
+                    flex-shrink: 0;
+                }
+
+                &.open {
+                    max-height: 310px;
+                }
+            }
+        }
+    }
+}
+
+
+
+// variants
+div.main_box4 {
+    &.variant_night {
+        div.slideshow {
+            border-bottom: 1px solid #4E4E4E;
+
+            h3 {
+                color: #E7E7E7;                
+            }
+
+            div.slides {
+                button:hover {
+                    background: #848484;
+                }
+            }
+        }
+
+        div.navigation {
+            border-bottom: 1px solid #4E4E4E;
+
+            h3 {
+                color: #E7E7E7;                
+            }
+
+            div.nav_bar {
+                div.dropdown {
+                    ul {
+                        background: #4C4C4C;
+
+                        li {
+                            a {
+                                color: #E7E7E7;
+                            }
+
+                            &:hover {
+                                background: #6b6b6b;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+
+        div.accordions {
+            border-bottom: 1px solid #4E4E4E;
+
+            h3 {
+                color: #E7E7E7;                
+            }
+
+            div.buttons {
+                div.section1 {
+                    background: #4C4C4C;     
+                    
+                    p {
+                        color: #E7E7E7;
+                    }
+                }
+
+                div.section2 {
+                    a {
+                        background: #4C4C4C;
+                        color: #E7E7E7;
+
+                        &:hover {
+                            background: #CCC;
+                            color: #000;
+                        }
+                    }
+                }
+            }
+        }
+    }
+
+    &.variant_red {
+        div.navigation {
+            div.nav_bar {
+                background: #F44336;
+            }
+        }
+
+        div.accordions {
+            div.buttons {
+                button {
+                    background: #F44336;
+                }
+            }
+        }
+    }
+    
+    &.variant_teal {
+        div.navigation {
+            div.nav_bar {
+                background: #009688;
+            }
+        }
+
+        div.accordions {
+            div.buttons {
+                button {
+                    background: #009688;
+                }
+            }
+        }
+    }
+}
+
+
+
+@mixin screen320 {
+    div.main_box4 {
+        gap: 70px;
+
+        div.slideshow {
+            h3 {
+                align-self: stretch;                
+            }
+        }
+
+        div.navigation {
+            h3 {
+                align-self: stretch;                
+            }
+
+            div.nav_bar {
+                background: #000;
+
+                flex-direction: column;       
+                
+                a.nav_bar_link {
+                    width: 100%;
+
+                    justify-content: initial;
+                }
+
+                div.dropdown {
+                    width: 100%;
+                }
+            }
+        }
+
+        div.accordions {
+            h3 {
+                align-self: stretch;                
+            }
+        }
+    }
+}
+
+
+@mixin screen768 {
+    div.main_box4 {
+        gap: 70px;
+
+        div.navigation {
+            h3 {
+                align-self: stretch;                
+            }
+        }
+
+        div.accordions {
+            h3 {
+                align-self: stretch;                
+            }
+        }
+    }
+}
+
+
+/* Extra small devices (phones, below 600px) */
+@media only screen and (min-width: 320px) and (max-width: 599.9px) {
+    @include screen320;
+}
+
+
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) and (max-width: 767.9px) {
+    @include screen320;
+}
+
+
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) and (max-width: 991.9px) {
+    @include screen768;
+} 
+
+
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) and (max-width: 1199.9px) {
+    
+} 
+
+
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) and (max-width: 1535.9px) {
+    
+} 
+

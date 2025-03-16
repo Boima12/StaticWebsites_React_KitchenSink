@@ -1,0 +1,428 @@
+button {
+  border: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+ul {
+  margin: 0;
+  padding: 0;
+}
+
+div.main_box5 {
+  padding: 0px 16px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  align-self: stretch;
+}
+div.main_box5 div.tabs {
+  padding: 20px 0px;
+  border-bottom: 1px solid #EEE;
+  transition: all 0.9s;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 10px;
+  align-self: stretch;
+}
+div.main_box5 div.tabs h3 {
+  transition: all 0.9s;
+  color: #000;
+  font-family: Roboto;
+  font-size: 30px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+div.main_box5 div.tabs div.tabBar {
+  border: 1px solid #CCC;
+  transition: all 0.9s;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  align-self: stretch;
+}
+div.main_box5 div.tabs div.tabBar div.tabBar_top {
+  height: 54.5px;
+  background: #000;
+  transition: all 0.9s;
+  display: flex;
+  align-items: flex-start;
+  align-self: stretch;
+}
+div.main_box5 div.tabs div.tabBar div.tabBar_top button {
+  padding: 0px 16px;
+  background: #000;
+  cursor: pointer;
+  transition: all 0.4s;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  align-self: stretch;
+  color: #FFF;
+  font-family: Roboto;
+  font-size: 15px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+div.main_box5 div.tabs div.tabBar div.tabBar_top button:hover {
+  background: #CCC;
+  color: #000;
+}
+div.main_box5 div.tabs div.tabBar div.tabBar_top button.actived {
+  background: #616161 !important;
+  color: #FFF !important;
+}
+div.main_box5 div.tabs div.tabBar div.tabBar_body {
+  padding: 20px 16px;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 20px;
+  align-self: stretch;
+  display: none;
+}
+div.main_box5 div.tabs div.tabBar div.tabBar_body h3 {
+  align-self: stretch;
+  transition: all 0.9s;
+  color: #000;
+  font-family: Roboto;
+  font-size: 30px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+div.main_box5 div.tabs div.tabBar div.tabBar_body p {
+  align-self: stretch;
+  transition: all 0.9s;
+  color: #000;
+  font-family: Roboto;
+  font-size: 15px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+div.main_box5 div.buttons {
+  padding: 20px 0px;
+  border-bottom: 1px solid #EEE;
+  transition: all 0.9s;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 22.5px;
+  align-self: stretch;
+}
+div.main_box5 div.buttons h3 {
+  transition: all 0.9s;
+  color: #000;
+  font-family: Roboto;
+  font-size: 30px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+div.main_box5 div.buttons div.buttons_body {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 15px;
+  align-self: stretch;
+}
+div.main_box5 div.buttons div.buttons_body div.normal {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 7px;
+  align-self: stretch;
+}
+div.main_box5 div.buttons div.buttons_body div.normal button {
+  padding: 8px 16px;
+  background: #000;
+  cursor: pointer;
+  transition: all 0.4s;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #FFF;
+  font-family: Roboto;
+  font-size: 15px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+div.main_box5 div.buttons div.buttons_body div.normal button:hover {
+  background: #CCC !important;
+  color: #000;
+}
+div.main_box5 div.buttons div.buttons_body div.normal button.special {
+  opacity: 0.3;
+  cursor: not-allowed;
+}
+div.main_box5 div.buttons div.buttons_body div.normal button.special:hover {
+  background: #000;
+  color: #FFF;
+}
+div.main_box5 div.buttons div.buttons_body div.circle {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 7px;
+  align-self: stretch;
+}
+div.main_box5 div.buttons div.buttons_body div.circle button {
+  width: 45px;
+  height: 45px;
+  border-radius: 50px;
+  background: #000;
+  cursor: pointer;
+  transition: all 0.4s;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+div.main_box5 div.buttons div.buttons_body div.circle button .ic {
+  transition: all 0.4s;
+  width: 15px;
+  height: 15px;
+  flex-shrink: 0;
+  color: #FFF;
+}
+div.main_box5 div.buttons div.buttons_body div.circle button.special {
+  background: #FFF;
+  box-shadow: 0px 4px 20px 0px rgba(0, 0, 0, 0.19);
+}
+div.main_box5 div.buttons div.buttons_body div.circle button.special .ic {
+  color: #000;
+}
+div.main_box5 div.buttons div.buttons_body div.circle button:hover {
+  background: #CCC !important;
+}
+div.main_box5 div.buttons div.buttons_body div.circle button:hover .ic {
+  color: #000;
+}
+div.main_box5 div.buttons div.buttons_body div.dropdown {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  position: relative;
+}
+div.main_box5 div.buttons div.buttons_body div.dropdown a {
+  padding: 8px 16px;
+  background: #000;
+  cursor: default;
+  transition: all 0.4s;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  color: #FFF;
+  font-family: Roboto;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+div.main_box5 div.buttons div.buttons_body div.dropdown a:hover {
+  background: #ccc !important;
+  color: #000;
+}
+div.main_box5 div.buttons div.buttons_body div.dropdown ul {
+  width: 160px;
+  border: 1px solid #CCC;
+  background: #FFF;
+  z-index: 5;
+  position: absolute;
+  top: 37.6px;
+  left: 0;
+  flex-direction: column;
+  align-items: flex-start;
+  display: none;
+}
+div.main_box5 div.buttons div.buttons_body div.dropdown ul li {
+  height: 40px;
+  padding: 0px 16px;
+  cursor: pointer;
+  transition: all 0.4s;
+  display: flex;
+  align-items: center;
+  align-self: stretch;
+  color: #000;
+  font-family: Roboto;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+div.main_box5 div.buttons div.buttons_body div.dropdown ul li:hover {
+  background: #CCC;
+}
+div.main_box5 div.buttons div.buttons_body div.dropdown:hover ul {
+  display: flex;
+}
+div.main_box5 div.pagination {
+  padding: 20px 0px;
+  border-bottom: 1px solid #EEE;
+  transition: all 0.9s;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 22.5px;
+  align-self: stretch;
+}
+div.main_box5 div.pagination h3 {
+  transition: all 0.9s;
+  color: #000;
+  font-family: Roboto;
+  font-size: 30px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+div.main_box5 div.pagination div.bar {
+  display: flex;
+  padding: 32px 0px;
+  justify-content: center;
+  align-items: center;
+}
+div.main_box5 div.pagination div.bar button {
+  width: 38.5px;
+  height: 38.5px;
+  background: none;
+  cursor: pointer;
+  transition: all 0.4s;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #000;
+  font-family: Roboto;
+  font-size: 15px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+div.main_box5 div.pagination div.bar button.director {
+  font-size: 18px;
+}
+div.main_box5 div.pagination div.bar button:hover {
+  background: #CCC;
+}
+div.main_box5 div.pagination div.bar button.actived {
+  background: #000 !important;
+  color: white !important;
+}
+
+div.main_box5.variant_night div.tabs {
+  border-bottom: 1px solid #4E4E4E;
+}
+div.main_box5.variant_night div.tabs h3 {
+  color: #E7E7E7;
+}
+div.main_box5.variant_night div.tabs div.tabBar {
+  border: 1px solid #323232;
+  background: #4C4C4C;
+}
+div.main_box5.variant_night div.tabs div.tabBar div.tabBar_body h3, div.main_box5.variant_night div.tabs div.tabBar div.tabBar_body p {
+  color: #E7E7E7;
+}
+div.main_box5.variant_night div.buttons {
+  border-bottom: 1px solid #4E4E4E;
+}
+div.main_box5.variant_night div.buttons h3 {
+  color: #E7E7E7;
+}
+div.main_box5.variant_night div.pagination {
+  border-bottom: 1px solid #4E4E4E;
+}
+div.main_box5.variant_night div.pagination h3 {
+  color: #E7E7E7;
+}
+div.main_box5.variant_night div.pagination div.bar button {
+  color: #E7E7E7;
+}
+div.main_box5.variant_red div.tabs div.tabBar div.tabBar_top {
+  background: #F44336;
+}
+div.main_box5.variant_red div.tabs div.tabBar div.tabBar_top button {
+  background: none;
+}
+div.main_box5.variant_red div.tabs div.tabBar div.tabBar_top button.actived {
+  background: #8D1007 !important;
+  color: #FFF !important;
+}
+div.main_box5.variant_red div.buttons div.buttons_body div.normal button {
+  background: #F44336;
+}
+div.main_box5.variant_red div.buttons div.buttons_body div.normal button.special:hover {
+  background: #F44336;
+}
+div.main_box5.variant_red div.buttons div.buttons_body div.circle button {
+  background: #F44336;
+}
+div.main_box5.variant_red div.buttons div.buttons_body div.dropdown a {
+  background: #F44336;
+}
+div.main_box5.variant_red div.pagination div.bar button.actived {
+  background: #F44336 !important;
+  color: white !important;
+}
+div.main_box5.variant_teal div.tabs div.tabBar div.tabBar_top {
+  background: #009688;
+}
+div.main_box5.variant_teal div.tabs div.tabBar div.tabBar_top button {
+  background: none;
+}
+div.main_box5.variant_teal div.tabs div.tabBar div.tabBar_top button.actived {
+  background: #004A43 !important;
+  color: #FFF !important;
+}
+div.main_box5.variant_teal div.buttons div.buttons_body div.normal button {
+  background: #009688;
+}
+div.main_box5.variant_teal div.buttons div.buttons_body div.normal button.special:hover {
+  background: #009688;
+}
+div.main_box5.variant_teal div.buttons div.buttons_body div.circle button {
+  background: #009688;
+}
+div.main_box5.variant_teal div.buttons div.buttons_body div.dropdown a {
+  background: #009688;
+}
+div.main_box5.variant_teal div.pagination div.bar button.actived {
+  background: #009688 !important;
+  color: white !important;
+}
+
+/* Extra small devices (phones, below 600px) */
+@media only screen and (min-width: 320px) and (max-width: 599.9px) {
+  div.main_box5 {
+    gap: 70px;
+  }
+  div.main_box5 div.tabs h3 {
+    align-self: stretch;
+  }
+}
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) and (max-width: 767.9px) {
+  div.main_box5 {
+    gap: 70px;
+  }
+  div.main_box5 div.tabs h3 {
+    align-self: stretch;
+  }
+}
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) and (max-width: 991.9px) {
+  div.main_box5 {
+    gap: 70px;
+  }
+  div.main_box5 div.tabs h3 {
+    align-self: stretch;
+  }
+}
+/* Large devices (laptops/desktops, 992px and up) */
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+
+/*# sourceMappingURL=box5.module.css.map */
